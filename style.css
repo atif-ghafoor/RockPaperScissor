@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+header{
+    color: red;
+    font-size: 5vw;
+    text-align: center;
+}
+
+.game_body{
+    background-color: white;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.game_body div h1{
+    color: rgb(80, 80, 95);
+    text-align: center;
+}
+
+.game_body h1{
+    margin: 0 30px;
+}
+
+.game_body div img{
+    width: 10vw;
+    height: 40vh;
+    margin: 10px 30px;
+}
+
+.computer_img{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    align-items: center;
+    height: 60vh;
+}
+
+.Person_img{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    align-items: center;
+    height: 60vh;
+}
+
+.Person_img img:hover{
+    margin: 0 30px 120px 30px;
+    cursor: pointer;
+}
+
+#result{
+    background-color: white;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 30px;
+    font-family: bloody;
+    color: red;
+    font-weight: 50;
+}
